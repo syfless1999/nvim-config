@@ -41,7 +41,7 @@ return packer.startup(function(use)
 	use("numToStr/Comment.nvim")
 
 	-- file explorer
-	-- use("nvim-tree/nvim-tree.lua")
+	use("nvim-tree/nvim-tree.lua")
 
 	-- vs-code like icons
 	use("nvim-tree/nvim-web-devicons")
