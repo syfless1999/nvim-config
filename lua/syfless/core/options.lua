@@ -19,6 +19,7 @@ opt.ignorecase = true
 opt.smartcase = true
 
 opt.cursorline = true
+opt.guicursor = ""
 
 -- apperance
 opt.termguicolors = true
