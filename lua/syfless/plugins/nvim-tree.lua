@@ -8,11 +8,17 @@ end
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
+-- set termguicolors to enable highlight groups
+vim.opt.termguicolors = true
+
 -- change color for arrows in tree to light blue
 vim.cmd([[ highlight NvimTreeIndentMarker guifg=#3FC5FF ]])
 
 -- configure nvim-tree
 nvimtree.setup({
+	update_focused_file = {
+		enable = true,
+	},
 	-- change folder arrow icons
 	renderer = {
 		icons = {
