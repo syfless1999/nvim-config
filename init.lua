@@ -9,6 +9,7 @@ require("syfless.plugins.nvim-tree")
 require("syfless.plugins.lualine")
 require("syfless.plugins.telescope")
 require("syfless.plugins.nvim-cmp")
+require("syfless.plugins.bufferline")
 
 require("syfless.plugins.lsp.mason")
 require("syfless.plugins.lsp.lspsaga")
