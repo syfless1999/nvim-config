@@ -120,6 +120,7 @@ _G.packer_plugins = {
     url = "https://github.com/onsails/lspkind.nvim"
   },
   ["lspsaga.nvim"] = {
+    config = { "\27LJ\2\nô\1\0\0\5\0\14\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\0025\3\6\0=\3\a\0025\3\t\0005\4\b\0=\4\n\3=\3\v\0025\3\f\0=\3\r\2B\0\2\1K\0\1\0\21symbol_in_winbar\1\0\1\14separator\b > \aui\vcolors\1\0\0\1\0\1\14normal_bg\f#022746\15definition\1\0\1\tedit\t<CR>\19scroll_preview\1\0\0\1\0\2\14scroll_up\n<C-b>\16scroll_down\n<C-f>\nsetup\flspsaga\frequire\0" },
     load_after = {},
     loaded = true,
     needs_bufread = false,
@@ -248,10 +249,14 @@ _G.packer_plugins = {
 time([[Defining packer_plugins]], false)
 -- Load plugins in order defined by `after`
 time([[Sequenced loading]], true)
-vim.cmd [[ packadd nvim-lspconfig ]]
-vim.cmd [[ packadd lspsaga.nvim ]]
 vim.cmd [[ packadd nvim-treesitter ]]
 vim.cmd [[ packadd nvim-ts-autotag ]]
+vim.cmd [[ packadd nvim-lspconfig ]]
+vim.cmd [[ packadd lspsaga.nvim ]]
+
+-- Config for: lspsaga.nvim
+try_loadstring("\27LJ\2\nô\1\0\0\5\0\14\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\0025\3\6\0=\3\a\0025\3\t\0005\4\b\0=\4\n\3=\3\v\0025\3\f\0=\3\r\2B\0\2\1K\0\1\0\21symbol_in_winbar\1\0\1\14separator\b > \aui\vcolors\1\0\0\1\0\1\14normal_bg\f#022746\15definition\1\0\1\tedit\t<CR>\19scroll_preview\1\0\0\1\0\2\14scroll_up\n<C-b>\16scroll_down\n<C-f>\nsetup\flspsaga\frequire\0", "config", "lspsaga.nvim")
+
 time([[Sequenced loading]], false)
 
 _G._packer.inside_compile = false

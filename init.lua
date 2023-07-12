@@ -12,7 +12,6 @@ require("syfless.plugins.nvim-cmp")
 require("syfless.plugins.bufferline")
 
 require("syfless.plugins.lsp.mason")
-require("syfless.plugins.lsp.lspsaga")
 require("syfless.plugins.lsp.lspconfig")
 require("syfless.plugins.lsp.null-ls")
 
