@@ -103,6 +103,9 @@ return packer.startup(function(use)
 	-- buffer line
 	use({ "akinsho/nvim-bufferline.lua", tag = "*" })
 
+	--- colorize
+	use({ "norcalli/nvim-colorizer.lua" })
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
