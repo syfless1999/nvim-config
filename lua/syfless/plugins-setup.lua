@@ -73,7 +73,9 @@ return packer.startup(function(use)
 	use({
 		"nvimdev/lspsaga.nvim",
 		after = "nvim-lspconfig",
-		config = [[require('plugins.lspsaga')]],
+		config = function()
+			require("lspsaga").setup({})
+		end,
 	}) -- enhanced lsp uis
 	use("jose-elias-alvarez/typescript.nvim") -- additional functionality for typescript server (e.g. rename file & update imports)
 	use("onsails/lspkind.nvim") -- vs-code like icons for autocompletion
