@@ -24,6 +24,7 @@ mason_lspconfig.setup({
 		"emmet_ls",
 		"jsonls",
 		"tsserver",
+		"rust_analyzer",
 		"lua_ls",
 	},
 })
@@ -33,5 +34,6 @@ mason_null_ls.setup({
 		"prettier",
 		"stylua",
 		"eslint_d",
+		"codelldb",
 	},
 })
