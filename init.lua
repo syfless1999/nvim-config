@@ -6,7 +6,6 @@ require("syfless.core.colorscheme")
 
 require("syfless.plugins.comment")
 require("syfless.plugins.nvim-tree")
-require("syfless.plugins.lualine")
 require("syfless.plugins.telescope")
 require("syfless.plugins.nvim-cmp")
 require("syfless.plugins.bufferline")
