@@ -4,7 +4,6 @@ return {
     local auto_session = require("auto-session")
 
     auto_session.setup({
-      auto_session_enable_last_session = true,
       auto_session_suppress_dirs = { "~/", "~/Dev/", "~/Downloads", "~/Documents", "~/Desktop/" },
     })
 
