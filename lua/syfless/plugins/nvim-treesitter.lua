@@ -42,6 +42,8 @@ return {
           "dockerfile",
           "gitignore",
           "query",
+          "rust",
+          "toml",
         },
         incremental_selection = {
           enable = true,
