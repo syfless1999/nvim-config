@@ -6,5 +6,14 @@ return {
     local keymap = vim.keymap
 
     keymap.set("n", "<leader>z", "<cmd>ZenMode<CR>", { desc = "Switch to Zen-Mode" })
+
+    require("zen-mode").setup({
+      window = {
+        width = 0.7,
+      },
+      plugins = {
+        tmux = { enabled = false },
+      },
+    })
   end,
 }

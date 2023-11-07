@@ -41,3 +41,6 @@ opt.iskeyword:append("-")
 -- language
 vim.api.nvim_exec("language en_US", true)
 
+-- encode
+opt.encoding = "utf8"
+opt.fileencodings = "ucs-bom,utf-8,cp936"
