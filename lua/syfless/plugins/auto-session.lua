@@ -4,6 +4,7 @@ return {
     local auto_session = require("auto-session")
 
     auto_session.setup({
+      pre_save_cmds = { ":NvimTreeClose" },
       auto_session_suppress_dirs = { "~/", "~/Dev/", "~/Downloads", "~/Documents", "~/Desktop/" },
     })
 
