@@ -5,7 +5,7 @@ return {
     -- set keymaps
     local keymap = vim.keymap
 
-    keymap.set("n", "<leader>z", "<cmd>ZenMode<CR>", { desc = "Switch to Zen-Mode" })
+    keymap.set("n", "<leader>zz", "<cmd>ZenMode<CR>", { desc = "Switch to Zen-Mode" })
 
     require("zen-mode").setup({
       window = {
