@@ -12,3 +12,4 @@
 [x] live grep in a certain directory
 [x] telescope remember last find action
 [x] telescope git_status keymap
+[x] gitsigns blame_line keymap => <leader>bl
