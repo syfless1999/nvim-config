@@ -20,22 +20,11 @@ return {
     logo = string.rep("\n", 8) .. logo .. "\n\n"
 
     require("dashboard").setup({
-      theme = "hyper",
+      theme = "doom",
       config = {
         header = vim.split(logo, "\n"),
-        project = { enable = false },
-        footer = {},
-        shortcut = {
-          { desc = "󰊳 Update", group = "@property", action = "Lazy update", key = "u" },
-          {
-            icon = " ",
-            icon_hl = "@variable",
-            desc = "Files",
-            group = "Label",
-            action = "Telescope find_files",
-            key = "f",
-          },
-        },
+        -- center = {},
+        -- footer = {}, --your footer
       },
     })
   end,
