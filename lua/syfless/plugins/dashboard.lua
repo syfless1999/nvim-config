@@ -3,6 +3,18 @@ return {
   event = "VimEnter",
   config = function()
     local logo = [[
+
+
+
+
+
+
+
+
+
+
+
+
              ,. -,        ,-·-.          ,'´¨;             ,.-·~ ^~, ‘           ,.  '                      _,.,  °                 ,. -,                 ,. -,    
        ,.·'´,    ,'\       ';   ';\      ,'´  ,':\'        .'´  ,.-·~-.,':\         /   ';\               ,.·'´  ,. ,  `;\ '         ,.·'´,    ,'\          ,.·'´,    ,'\   
    ,·'´ .·´'´-·'´::::\'      ;   ';:\   .'   ,'´::'\'      ;   ,':\::::::'\::\      ,'   ,'::'\            .´   ;´:::::\`'´ \'\     ,·'´ .·´'´-·'´::::\'    ,·'´ .·´'´-·'´::::\' 
@@ -15,16 +27,28 @@ return {
   \`*'´\::::::::;·'‘           '\:::::\';  '            \*´\:';        '‚        \¨:::::::::::\';     \`*´ ¯\:::::::::::\;' '  \`*'´\::::::::;·'‘     \`*'´\::::::::;·'‘   
    \::::\:;:·´                  `*ª'´‘                 '\::\;     '             '\;::_;:-·'´‘         \:::::\;::-·^*'´        \::::\:;:·´           \::::\:;:·´        
      '`*'´‘                        '                      `*´‘                    '¨                    `*´¯                   '`*'´‘                 '`*'´‘            
+
+
+
+
+
+
         ]]
 
     logo = string.rep("\n", 8) .. logo .. "\n\n"
 
     require("dashboard").setup({
       theme = "doom",
+      hide = {
+        tabline = true,
+        statusline = true,
+        winbar = true,
+      },
       config = {
         header = vim.split(logo, "\n"),
-        -- center = {},
-        -- footer = {}, --your footer
+        -- center = { { desc = "Power by Neovim", key = "p" } },
+        -- center = { { desc = "Please config your own center section", key = "p" } },
+        footer = {}, --your footer
       },
     })
   end,
