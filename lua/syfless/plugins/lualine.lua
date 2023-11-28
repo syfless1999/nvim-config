@@ -39,7 +39,10 @@ return {
         component_separators = "|",
       },
       sections = {
-        lualine_b = { "filename", "branch" },
+        lualine_b = {
+          { "filename", path = 1 },
+          "branch",
+        },
         lualine_c = { "fileformat" },
         lualine_x = {},
         lualine_y = { "filetype", "progress" },
