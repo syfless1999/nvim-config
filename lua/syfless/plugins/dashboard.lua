@@ -42,7 +42,7 @@ return {
       },
       config = {
         header = vim.split(logo, "\n"),
-        center = { { desc = "🎉 Power by Neovim" } },
+        center = { { desc = "I 🎉 Powered by Neovim" } },
         footer = {}, --your footer
       },
     })

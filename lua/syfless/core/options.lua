@@ -40,7 +40,7 @@ opt.splitbelow = true
 opt.iskeyword:append("-")
 
 -- language
-vim.api.nvim_exec("language en_US", true)
+-- vim.api.nvim_exec("language en_US", true)
 
 -- encode
 opt.encoding = "utf8"

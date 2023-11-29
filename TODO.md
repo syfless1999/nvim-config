@@ -7,6 +7,8 @@
 
 ## Fix
 
+[x] copy chinese line error [E353 Nothing in register "]: Caused by `vim.api.nvim_exec("language en_US", true)`
+
 ## Improve
 
 [x] live grep in a certain directory
