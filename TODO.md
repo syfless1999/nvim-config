@@ -3,7 +3,7 @@
 ## Feature
 
 [] fold
-[] git status
+[x] git status
 
 ## Fix
 
