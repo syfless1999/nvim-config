@@ -29,3 +29,4 @@ keymap.set("n", "<C-]>", ":tabn<CR>") -- go to next tab
 keymap.set("n", "<leader>nu", ":set relativenumber!<CR>") -- toggle relativenumber
 
 -- plugin keymaps
+keymap.set("n", "<leader>gb", ":Git blame<CR>") -- vim-fugitive blame
