@@ -9,7 +9,7 @@ return {
 
     require("zen-mode").setup({
       window = {
-        width = 0.7,
+        width = 0.85,
       },
       plugins = {
         tmux = { enabled = false },
