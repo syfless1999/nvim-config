@@ -14,12 +14,13 @@ return {
 
     telescope.setup({
       defaults = {
+        layout_strategy = "vertical",
         path_display = {
           "truncate",
-          shorten = {
-            len = 3,
-            exclude = { 1, -1 },
-          },
+          -- shorten = {
+          --   len = 3,
+          --   exclude = { 1, -1 },
+          -- },
         },
         mappings = {
           i = {
