@@ -15,13 +15,13 @@ return {
     telescope.setup({
       defaults = {
         layout_strategy = "vertical",
-        path_display = {
-          "truncate",
-          -- shorten = {
-          --   len = 3,
-          --   exclude = { 1, -1 },
-          -- },
-        },
+        -- path_display = {
+        --   "truncate",
+        -- shorten = {
+        --   len = 3,
+        --   exclude = { 1, -1 },
+        -- },
+        -- },
         mappings = {
           i = {
             ["<C-k>"] = actions.move_selection_previous, -- move to prev result
