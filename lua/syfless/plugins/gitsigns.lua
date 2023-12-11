@@ -12,7 +12,7 @@ return {
           vim.keymap.set(mode, l, r, opts)
         end
 
-        map("n", "<leader>bl", gs.blame_line)
+        map("n", "<leader>b", gs.blame_line)
       end,
     })
   end,
