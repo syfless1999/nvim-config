@@ -23,10 +23,10 @@ keymap.set("n", "<C-]>", ":tabn<CR>") -- go to next tab
 keymap.set("n", "<leader>nu", ":set relativenumber!<CR>") -- toggle relativenumber
 
 -- buffer wider
-keymap.set("n", "<C-w>l", "10<C-w>>")
-keymap.set("n", "<C-w>h", "10<C-w><")
-keymap.set("n", "<C-w>j", "10<C-w>-")
-keymap.set("n", "<C-w>k", "10<C-w>+")
+keymap.set("n", "<C-w>l", "5<C-w>>")
+keymap.set("n", "<C-w>h", "5<C-w><")
+keymap.set("n", "<C-w>j", "5<C-w>-")
+keymap.set("n", "<C-w>k", "5<C-w>+")
 
 -- plugin keymaps
 keymap.set("n", "<leader>gb", ":Git blame<CR>") -- vim-fugitive blame
