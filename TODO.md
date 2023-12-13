@@ -19,3 +19,4 @@
 [x] telescope git_status keymap
 [x] gitsigns blame_line keymap => <leader>bl
 [x] telescope file path too long not show [Telescope layout_strategy => 'vertical']
+[x] nvim-tree open in float buffer and make width adaptive
