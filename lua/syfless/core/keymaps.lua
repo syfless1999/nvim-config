@@ -7,9 +7,6 @@ keymap.set("n", "<leader>nh", ":nohl<CR>")
 -- delete without copy
 keymap.set("n", "x", '"_x')
 
-keymap.set("n", "x", '"_x')
-keymap.set("n", "x", '"_x')
-
 keymap.set("n", "H", "0")
 keymap.set("n", "L", "$")
 
@@ -24,6 +21,12 @@ keymap.set("n", "<leader>tx", ":tabclose<CR>") -- close current tab
 keymap.set("n", "<C-[>", ":tabp<CR>") --  go to previous tab
 keymap.set("n", "<C-]>", ":tabn<CR>") -- go to next tab
 keymap.set("n", "<leader>nu", ":set relativenumber!<CR>") -- toggle relativenumber
+
+-- buffer wider
+keymap.set("n", "<C-w>l", "10<C-w>>")
+keymap.set("n", "<C-w>h", "10<C-w><")
+keymap.set("n", "<C-w>j", "10<C-w>-")
+keymap.set("n", "<C-w>k", "10<C-w>+")
 
 -- plugin keymaps
 keymap.set("n", "<leader>gb", ":Git blame<CR>") -- vim-fugitive blame

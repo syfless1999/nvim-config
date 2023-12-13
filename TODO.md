@@ -4,6 +4,7 @@
 
 [] fold
 [x] git status
+[x] buffer wider and higher keymap
 
 ## Fix
 
