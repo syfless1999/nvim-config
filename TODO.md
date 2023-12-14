@@ -9,6 +9,7 @@
 ## Fix
 
 [x] copy chinese line error [E353 Nothing in register "]: Caused by `vim.api.nvim_exec("language en_US", true)`
+[] <Esc> and <C-[> diff
 
 ## Improve
 
