@@ -20,12 +20,12 @@ return {
           min = 30,
           max = 60,
         },
-        float = {
-          enable = true,
-          open_win_config = {
-            style = "minimal",
-          },
-        },
+        -- float = {
+        --   enable = true,
+        --   open_win_config = {
+        --     style = "minimal",
+        --   },
+        -- },
       },
       -- change folder arrow icons
       renderer = {
