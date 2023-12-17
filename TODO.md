@@ -2,7 +2,7 @@
 
 ## Feature
 
-[] fold
+[x] simple fold
 [x] git status
 [x] buffer wider and higher keymap
 
