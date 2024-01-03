@@ -26,10 +26,10 @@ return {
         graphql = { "prettier" },
         lua = { "stylua" },
       },
-      format_on_save = option,
+      -- format_on_save = option,
     })
 
-    vim.keymap.set({ "n", "v" }, "<leader>mp", function()
+    vim.keymap.set({ "n", "v" }, "<leader>fm", function()
       conform.format(option)
     end, { desc = "Format file or range (in visual mode)" })
   end,

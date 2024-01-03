@@ -23,3 +23,4 @@
 [x] comment tsx/jsx use
 [] improve `dap` with lsp
 [] show complete line diagnostics
+[] `:Git commit -m` no processing content
