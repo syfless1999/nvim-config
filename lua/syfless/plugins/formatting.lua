@@ -8,7 +8,7 @@ return {
     local option = {
       lsp_fallback = true,
       async = false,
-      timeout_ms = 500,
+      timeout_ms = 2000,
     }
 
     conform.setup({
