@@ -8,7 +8,7 @@ return {
     local option = {
       lsp_fallback = true,
       async = false,
-      timeout_ms = 1000,
+      timeout_ms = 500,
     }
 
     conform.setup({
@@ -26,7 +26,6 @@ return {
         graphql = { "prettier" },
         lua = { "stylua" },
       },
-      -- format_on_save = option,
     })
 
     vim.keymap.set({ "n", "v" }, "<leader>fm", function()
