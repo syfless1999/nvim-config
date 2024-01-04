@@ -24,4 +24,4 @@
 [] improve `dap` with lsp
 [] show complete line diagnostics
 [] `:Git commit -m` no processing content
-[] quick copy file relative path
+[x] quick copy file relative path
