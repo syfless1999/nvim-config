@@ -25,3 +25,4 @@
 [] show complete line diagnostics
 [] `:Git commit -m` no processing content
 [x] quick copy file relative path
+[x] telescope find_files can not find hidden file
