@@ -14,6 +14,10 @@ return {
 
     telescope.setup({
       defaults = {
+        file_ignore_patterns = {
+          "yarn.lock",
+          ".git",
+        },
         layout_strategy = "vertical",
         -- path_display = {
         --   "truncate",
