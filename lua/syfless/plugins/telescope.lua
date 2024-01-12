@@ -16,7 +16,7 @@ return {
       defaults = {
         file_ignore_patterns = {
           "yarn.lock",
-          ".git",
+          "^.git/",
         },
         layout_strategy = "vertical",
         -- path_display = {

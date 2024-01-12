@@ -22,7 +22,7 @@
 [x] nvim-tree open in float buffer and make width adaptive
 [x] comment tsx/jsx use
 [] improve `dap` with lsp
-[] show complete line diagnostics
+[x] show complete line diagnostics [by `]d`]
 [] `:Git commit -m` no processing content
 [x] quick copy file relative path
 [x] telescope find_files can not find hidden file
