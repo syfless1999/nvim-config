@@ -28,8 +28,5 @@ keymap.set("n", "<C-w>h", "5<C-w><")
 keymap.set("n", "<C-w>j", "5<C-w>-")
 keymap.set("n", "<C-w>k", "5<C-w>+")
 
--- plugin keymaps
-keymap.set("n", "<leader>gb", ":Git blame<CR>") -- vim-fugitive blame
-
 -- fold
 keymap.set("n", "z{", "zfa{")
