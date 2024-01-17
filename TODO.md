@@ -26,3 +26,4 @@
 [] `:Git commit -m` no processing content
 [x] quick copy file relative path
 [x] telescope find_files can not find hidden file
+[x] eslint_d no warning without `.eslint.js` file
