@@ -6,6 +6,7 @@
 [x] git status
 [x] buffer wider and higher keymap
 [] diffview.nvim
+[] how to debug
 
 ## Fix
 
