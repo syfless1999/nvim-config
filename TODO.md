@@ -7,6 +7,7 @@
 [x] buffer wider and higher keymap
 [] diffview.nvim
 [] how to debug
+[] git [use lazygit]
 
 ## Fix
 
