@@ -7,7 +7,8 @@
 [x] buffer wider and higher keymap
 [] diffview.nvim
 [] how to debug
-[x] git [use lazygit]
+[x] git [use vscode]
+[] enhance code action
 
 ## Fix
 
@@ -29,3 +30,4 @@
 [x] quick copy file relative path
 [x] telescope find_files can not find hidden file
 [x] eslint_d no warning without `.eslint.js` file
+[x] replace `eslint_d` to `eslint`
