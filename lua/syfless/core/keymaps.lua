@@ -28,8 +28,5 @@ keymap.set("n", "<C-w>h", "5<C-w><")
 keymap.set("n", "<C-w>j", "5<C-w>-")
 keymap.set("n", "<C-w>k", "5<C-w>+")
 
--- lazygit
-keymap.set("n", "<C-g>", ":tabe<CR>:-tabmove<CR>:term lazygit<CR>")
-
 -- fold
 keymap.set("n", "z{", "zfa{")
