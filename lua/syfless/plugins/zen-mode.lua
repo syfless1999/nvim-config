@@ -1,11 +1,11 @@
 return {
   "folke/zen-mode.nvim",
-  opts = {},
+  keys = {
+    { "<leader>zz", "<cmd>ZenMode<CR>", desc = "Switch to Zen-Mode" },
+  },
   config = function()
-    -- set keymaps
-    local keymap = vim.keymap
-
-    keymap.set("n", "<leader>zz", "<cmd>ZenMode<CR>", { desc = "Switch to Zen-Mode" })
+    -- local keymap = vim.keymap
+    -- keymap.set("n", "<leader>zz", "<cmd>ZenMode<CR>", { desc = "Switch to Zen-Mode" })
 
     require("zen-mode").setup({
       window = {
