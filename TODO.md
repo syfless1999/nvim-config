@@ -6,10 +6,10 @@
 [x] git status
 [x] buffer wider and higher keymap
 [] diffview.nvim
-[] how to debug
-[x] git [use vscode]
-[] enhance code action
-[] todo-comment
+- [] how to debug
+- [x] git [use vscode]
+- [ ] enhance code action
+- [ ] folke/todo-comments.nvim
 
 ## Fix
 
