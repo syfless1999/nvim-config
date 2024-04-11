@@ -13,7 +13,8 @@ return {
         separator_style = "thick",
         show_close_icon = false,
         indicator = {
-          style = "underline",
+          icon = "▎", -- this should be omitted if indicator style is not 'icon'
+          style = "icon",
         },
         show_buffer_close_icons = false,
         offsets = {
@@ -22,13 +23,6 @@ return {
             text = "",
             separator = true,
           },
-        },
-      },
-      highlights = {
-        indicator_selected = {
-          fg = "#ff5252",
-          bg = "#33d9b2",
-          sp = "#33d9b2",
         },
       },
     })
