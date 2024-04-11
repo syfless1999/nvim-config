@@ -2,14 +2,14 @@
 
 ## Feature
 
-[x] simple fold
-[x] git status
-[x] buffer wider and higher keymap
-[] diffview.nvim
-- [] how to debug
+- [x] simple fold
+- [x] git status
+- [x] buffer wider and higher keymap
+- [ ] diffview.nvim
+- [ ] how to debug
 - [x] git [use vscode]
 - [ ] enhance code action
-- [ ] folke/todo-comments.nvim
+- [x] folke/todo-comments.nvim
 
 ## Fix
 
