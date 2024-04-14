@@ -33,3 +33,4 @@
 - [x] eslint_d no warning without `.eslint.js` file
 - [x] replace `eslint_d` to `eslint`
 - [x] linting: `eslint` ignore command error
+
