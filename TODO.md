@@ -25,7 +25,7 @@
 - [x] telescope file path too long not show [Telescope layout_strategy => 'vertical']
 - [x] nvim-tree open in float buffer and make width adaptive
 - [x] comment tsx/jsx use
-- [ ] improve `dap` with lsp
+- [x] improve `dap` with lsp
 - [x] show complete line diagnostics [by `]d`]
 - [ ] `:Git commit -m` no processing content
 - [x] quick copy file relative path
