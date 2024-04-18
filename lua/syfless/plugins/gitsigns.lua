@@ -10,7 +10,7 @@ return {
           vim.keymap.set(mode, l, r, { buffer = bufnr, desc = desc })
         end
 
-        map("n", "<leader>hb", function()
+        map("n", "<leader>b", function()
           gs.blame_line({ full = true })
         end, "Blame line")
 
