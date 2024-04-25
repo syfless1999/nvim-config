@@ -50,10 +50,10 @@ return {
 
     require("dap-vscode-js").setup({
       debugger_path = vim.fn.stdpath("data") .. "/lazy/vscode-js-debug",
-      adapters = { "pwa-node", "pwa-chrome", "pwa-msedge", "node-terminal", "pwa-extensionHost" },
+      adapters = { "pwa-node", "node-terminal", "pwa-extensionHost" },
     })
 
-    for _, language in ipairs({ "typescript", "javascript", "svelte" }) do
+    for _, language in ipairs({ "typescript", "javascript" }) do
       require("dap").configurations[language] = {
         -- attach to a node process that has been started with
         -- `--inspect` for longrunning tasks or `--inspect-brk` for short tasks
@@ -79,18 +79,6 @@ return {
           cwd = "${workspaceFolder}/src",
           -- we don't want to debug code inside node_modules, so skip it!
           skipFiles = { "${workspaceFolder}/node_modules/**/*.js" },
-        },
-        {
-          type = "pwa-chrome",
-          name = "Launch Chrome to debug client",
-          request = "launch",
-          url = "http://localhost:5173",
-          sourceMaps = true,
-          protocol = "inspector",
-          port = 9222,
-          webRoot = "${workspaceFolder}/src",
-          -- skip files from vite's hmr
-          skipFiles = { "**/node_modules/**/*", "**/@vite/*", "**/src/client/*", "**/src/*" },
         },
         -- only if language is javascript, offer this debug action
         language == "javascript"

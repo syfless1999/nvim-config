@@ -10,6 +10,7 @@
 - [x] git [use vscode]
 - [ ] enhance code action
 - [x] folke/todo-comments.nvim
+- [ ] debug [npm scripts] with dap
 
 ## Fix
 
