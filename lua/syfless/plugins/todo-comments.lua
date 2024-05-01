@@ -8,6 +8,13 @@ return {
 
     keymap.set("n", "<leader>ft", "<cmd>TodoTelescope<cr>", { desc = "Find todos" })
 
-    todo_comments.setup()
+    todo_comments.setup({
+      signs = true,
+      keywords = {
+        HARD = {
+          color = "warning",
+        },
+      },
+    })
   end,
 }
