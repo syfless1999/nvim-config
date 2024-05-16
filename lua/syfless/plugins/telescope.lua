@@ -63,5 +63,6 @@ return {
     keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<cr>", { desc = "Find string under cursor in cwd" })
     keymap.set("n", "<leader>fr", "<cmd>Telescope resume<cr>", { desc = "Telescope resume" })
     keymap.set("n", "<leader>fg", "<cmd>Telescope git_status<cr>", { desc = "Telescope Git status" })
+    keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<cr>", { desc = "Telescope buffers" })
   end,
 }
