@@ -14,7 +14,7 @@ return {
           gs.blame_line({ full = true })
         end, "Blame line")
 
-        map("n", "<leader>hd", gs.diffthis, "Diff this")
+        map("n", "<leader>dd", gs.diffthis, "Diff this")
       end,
     })
   end,
