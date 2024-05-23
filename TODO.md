@@ -5,8 +5,7 @@
 - [x] simple fold
 - [x] git status
 - [x] buffer wider and higher keymap
-- [ ] diffview.nvim
-- [ ] how to debug
+- [x] how to debug javascript
 - [x] git [use vscode]
 - [ ] enhance code action
 - [x] folke/todo-comments.nvim
