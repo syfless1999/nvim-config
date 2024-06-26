@@ -39,7 +39,7 @@ return {
         live_grep_args = {
           mappings = {
             i = {
-              ["<C-i>"] = lga_actions.quote_prompt({ postfix = " --iglob " }),
+                ["<C-i>"] = lga_actions.quote_prompt({ postfix = " --iglob " }),
             },
           },
         },
@@ -62,7 +62,7 @@ return {
     )
     keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<cr>", { desc = "Find string under cursor in cwd" })
     keymap.set("n", "<leader>fr", "<cmd>Telescope resume<cr>", { desc = "Telescope resume" })
-    keymap.set("n", "<leader>fg", "<cmd>Telescope git_status<cr>", { desc = "Telescope Git status" })
+    keymap.set("n", "<leader>fg", "<cmd>Telescope git_status layout_strategy=horizontal<cr>", { desc = "Telescope Git status" })
     keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<cr>", { desc = "Telescope buffers" })
   end,
 }
