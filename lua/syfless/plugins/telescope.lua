@@ -61,7 +61,7 @@ return {
     keymap.set(
       "n",
       "<leader>fs",
-      ":lua require('telescope').extensions.live_grep_args.live_grep_args()<CR>",
+      ":lua require('telescope').extensions.live_grep_args.live_grep_args({ layout_strategy = 'vertical' })<CR>",
       { desc = "Find string in cwd" }
     )
     keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<cr>", { desc = "Find string under cursor in cwd" })
