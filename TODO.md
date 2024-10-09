@@ -10,6 +10,7 @@
 - [ ] enhance code action
 - [x] folke/todo-comments.nvim
 - [ ] debug [npm scripts] with dap
+- [x] indent line
 
 ## Fix
 
