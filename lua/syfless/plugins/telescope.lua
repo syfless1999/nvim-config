@@ -26,10 +26,13 @@ return {
         --   exclude = { 1, -1 },
         -- },
         -- },
+        -- path_display={"smart"},
         mappings = {
           i = {
             ["<C-k>"] = actions.move_selection_previous, -- move to prev result
-            ["<C-j>"] = actions.move_selection_next, -- move to next result
+            ["<C-j>"] = actions.move_selection_next,     -- move to next result
+            -- ["<C-h>"] = actions.results_scrolling_left,
+            -- ["<C-l>"] = actions.results_scrolling_right,
             ["<C-q>"] = actions.send_selected_to_qflist + actions.open_qflist,
           },
         },
