@@ -72,5 +72,6 @@ return {
     keymap.set("n", "<leader>fg", "<cmd>Telescope git_status<cr>", { desc = "Telescope Git status" })
     keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<cr>", { desc = "Telescope buffers" })
     keymap.set("n", "<leader>ft", "<cmd>TodoTelescope layout_strategy=vertical<cr>", { desc = "Find todos" })
+    keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>", { desc = "Telescope help "})
   end,
 }
