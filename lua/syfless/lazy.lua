@@ -12,9 +12,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({ { import = "syfless.plugins" }, { import = "syfless.plugins.lsp" } }, {
-  install = {
-    colorscheme = { "tokyonight" },
-  },
   checker = {
     enabled = true,
     notify = false,
