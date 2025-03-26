@@ -1,20 +1,53 @@
 return {
   {
-    "folke/tokyonight.nvim",
-    priority = 1000, -- make sure to load this before all the other start plugins
+    "rebelot/kanagawa.nvim",
+    priority = 100,
     config = function()
-      require("tokyonight").setup({
-        style = "storm",
-        -- background transparent
-        transparent = true,
-        styles = {
-          sidebars = "transparent",
-          floats = "transparent",
+      require("kanagawa").setup({
+        compile = false, -- enable compiling the colorscheme
+        undercurl = true, -- enable undercurls
+        commentStyle = { italic = true },
+        functionStyle = {},
+        keywordStyle = { italic = true },
+        statementStyle = { bold = true },
+        typeStyle = {},
+        transparent = false, -- do not set background color
+        dimInactive = false, -- dim inactive window `:h hl-NormalNC`
+        terminalColors = true, -- define vim.g.terminal_color_{0,17}
+        colors = {         -- add/modify theme and palette colors
+          palette = {},
+          theme = { wave = {}, lotus = {}, dragon = {}, all = {} },
         },
-        -- 
-      })
-      -- load the colorscheme here
-      vim.cmd([[colorscheme tokyonight]])
-    end,
-  },
+        overrides = function(colors) -- add/modify highlights
+          return {}
+        end,
+        theme = "wave", -- Load "wave" theme
+        background = { -- map the value of 'background' option to a theme
+          dark = "wave", -- try "dragon" !
+          light = "lotus"
+        },
+      });
+      vim.cmd("colorscheme kanagawa")
+    end
+  }
 }
+-- return {
+--   {
+--     "folke/tokyonight.nvim",
+--     priority = 1000, -- make sure to load this before all the other start plugins
+--     config = function()
+--       require("tokyonight").setup({
+--         style = "storm",
+--         -- background transparent
+--         transparent = true,
+--         styles = {
+--           sidebars = "transparent",
+--           floats = "transparent",
+--         },
+--         --
+--       })
+--       -- load the colorscheme here
+--       vim.cmd([[colorscheme tokyonight]])
+--     end,
+--   },
+-- }
