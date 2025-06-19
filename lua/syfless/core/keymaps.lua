@@ -7,6 +7,7 @@ keymap.set("n", "<leader>nh", ":nohl<CR>")
 -- delete without copy
 keymap.set("n", "x", '"_x')
 
+-- quick jump to start / end
 keymap.set("n", "H", "0")
 keymap.set("n", "L", "$")
 
