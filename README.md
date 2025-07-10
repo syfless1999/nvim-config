@@ -1,10 +1,6 @@
 # Syfless's Neovim Config
 
----
-
 > hello neovim
-
-
 
 ## something extra
 
